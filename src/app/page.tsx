@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Image from 'next/image'
 
+
 export default function Home() {
   return (
     <>
@@ -15,16 +16,17 @@ export default function Home() {
         <h2 className="text-[#480f10] text-sm mb-4 font-semibold">
           CONHEÇA A ADVOGADA
         </h2>
-        <div className="bg-[#480f10] w-[70%] h-[90%] lex-1 rounded-2xl flex justify-center items-center overflow-hidden">
-          <div className="flex flex-row gap-5 w-full h-full p-5 box-border">
+
+        <div className="bg-[#480f10] w-[70%] h-[90%] rounded-2xl flex justify-center items-center overflow-hidden md:flex-col">
+          <div className="flex flex-col md:flex-row gap-5 w-full h-full p-5 box-border">
             <div className="bg-white w-1/2 h-full rounded-xl flex justify-center items-center overflow-hidden">
               <img
                 src="/Perfil.jpg"
                 alt="Perfil"
-                className="scale-[1.7] w-full h-full object-cover object-[50%_-80%] 2xl:object-[0%_-200%]"
+                className=" scale-[1.7] w-full h-full object-cover object-[50%_-80%] 2xl:object-[0%_-200%]"
               />
             </div>
-            <div className="w-1/2 h-full rounded-xl px-5 pt-5 flex flex-col justify-between">
+            <div className="md:w-sm lg:w-lg xl:w-1/2 h-full rounded-xl px-5 pt-5 flex flex-col justify-between text-justify">
               <div>
                 <h1 className="xl:text-[20px] 2xl:text-3xl text-[#c5972c]">
                   Ana Claudia Martins

@@ -52,80 +52,76 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
 </section>
 
       <section className=" w-full min-h-screen flex flex-col items-center justify-center px-4 py-8 bg-[#411417]">
-        <div className="flex flex-wrap justify-center gap-5 mb-6 object-cover z-10">
-          <div className="bg-white p-6 rounded-xl shadow-md xl:w-[500px] 2xl:w-[700] xl:h-[150px] 2xl:h-[200px] px-30 flex flex-col items-center">
-            <img src="/missao.png" alt="" className=" h-7" />
-            <h3 className="font-bold text-center mb-2 text-[#411417]">
-              Missão
-            </h3>
-            <p className="text-center text-sm text-[#c69535]">
-              Oferecer assessoria jurídica de excelência para meus clientes.
-            </p>
-          </div>
-          <div className="bg-white p-6 rounded-xl shadow-md xl:w-[500px] 2xl:w-[700] xl:h-[150px] 2xl:h-[200px] px-30 flex flex-col items-center">
-            <img src="/valor.png" alt="" className="h-7" />
-            <h3 className="font-bold text-center mb-2 text-[#411417]">
-              Valores
-            </h3>
-            <p className="text-center text-sm text-[#c69535]">
-              Comprometimento, ética, inovação, transparência e responsabilidade
-              social.
-            </p>
-          </div>
-        </div>
+ <div className="flex flex-wrap justify-center gap-5 mb-6 z-10 w-full max-w-7xl">
+    <div className="flex-1 min-w-[280px] max-w-[500px] bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
+      <img src="/missao.png" alt="Missão" className="h-7" />
+      <h3 className="font-bold text-center mb-2 text-[#411417]">Missão</h3>
+      <p className="text-center text-sm text-[#c69535]">
+        Oferecer assessoria jurídica de excelência para meus clientes.
+      </p>
+    </div>
+    <div className="flex-1 min-w-[280px] max-w-[500px] bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
+      <img src="/valor.png" alt="Valores" className="h-7" />
+      <h3 className="font-bold text-center mb-2 text-[#411417]">Valores</h3>
+      <p className="text-center text-sm text-[#c69535]">
+        Comprometimento, ética, inovação, transparência e responsabilidade social.
+      </p>
+    </div>
+  </div>
 
         <h1 className="text-white text-2xl font-bold mb-6 object-cover z-10">
-          Áreas de atuação
-        </h1>
+  Áreas de atuação
+</h1>
 
-        <div className="flex flex-wrap justify-center gap-2 object-cover z-10">
-          <div className="bg-white p-6 rounded-xl shadow-md xl:w-[250px] 2xl:w-[350px] xl:h-[300px] flex flex-col items-center">
-            <img src="/direito-penal.png" alt="" className="h-7" />
-            <h3 className="font-bold text-center mb-2 text-[#411417]">
-              Direito Criminal
-            </h3>
-            <p className="text-center text-sm text-[#c69535] text-justify xl:px-5 2xl:px-16">
-              Atuação estratégica em investigações e processos criminais, com defesa técnica em todas as fases — incluindo acompanhamento em delegacias, audiências e tribunais. Ofereço também orientação jurídica preventiva em casos envolvendo crimes diversos.
-            </p>
-          </div>
+<div className="flex flex-wrap justify-center gap-4 object-cover z-10">
+  <div className="bg-white p-6 rounded-xl shadow-md flex-1 min-w-[280px] max-w-[350px] h-auto flex flex-col items-center px-10">
+    <img src="/direito-penal.png" alt="" className="h-7" />
+    <h3 className="font-bold text-center mb-2 text-[#411417]">
+      Direito Criminal
+    </h3>
+    <p className="text-center text-sm text-[#c69535] text-justify">
+      Atuação estratégica em investigações e processos criminais, com defesa técnica em todas as fases — incluindo acompanhamento em delegacias, audiências e tribunais. Ofereço também orientação jurídica preventiva em casos envolvendo crimes diversos.
+    </p>
+  </div>
 
-          <div className="bg-white p-6 rounded-xl shadow-md xl:w-[250px] 2xl:w-[350px] h-auto flex flex-col items-center ">
-            <img src="/plano-de-aposentadoria.png" alt="" className="h-7" />
-            <h3 className="font-bold text-center mb-2 text-[#411417]">
-              Direito Previdenciário
-            </h3>
-            <p className="text-center text-sm text-[#c69535] text-justify xl:px-5 2xl:px-16">
-              Atendimento especializado em aposentadorias, pensões, auxílios, revisões de benefícios e demais demandas junto ao INSS, com foco em garantir os direitos previdenciários dos segurados com agilidade e segurança.
-            </p>
-          </div>
+  <div className="bg-white p-6 rounded-xl shadow-md flex-1 min-w-[280px] max-w-[350px] h-auto flex flex-col items-center px-10">
+    <img src="/plano-de-aposentadoria.png" alt="" className="h-7" />
+    <h3 className="font-bold text-center mb-2 text-[#411417]">
+      Direito Previdenciário
+    </h3>
+    <p className="text-center text-sm text-[#c69535] text-justify">
+      Atendimento especializado em aposentadorias, pensões, auxílios, revisões de benefícios e demais demandas junto ao INSS, com foco em garantir os direitos previdenciários dos segurados com agilidade e segurança.
+    </p>
+  </div>
 
-          <div className="bg-white p-6 rounded-xl shadow-md xl:w-[250px] 2xl:w-[350px] h-auto flex flex-col items-center px-10">
-            <img src="/justica.png" alt="" className="h-7" />
-            <h3 className="font-bold text-center mb-2 text-[#411417]">
-              Direito Civil
-            </h3>
-            <p className="text-center text-sm text-[#c69535] text-justify xl:px-3 2xl:px-16">
-              Atuação em questões do dia a dia, como elaboração e revisão de contratos, ações de cobrança, responsabilidade civil, indenizações e demais demandas cíveis que envolvem os direitos e deveres nas relações particulares.
-            </p>
-          </div>
+  <div className="bg-white p-6 rounded-xl shadow-md flex-1 min-w-[280px] max-w-[350px] h-auto flex flex-col items-center px-10">
+    <img src="/justica.png" alt="" className="h-7" />
+    <h3 className="font-bold text-center mb-2 text-[#411417]">
+      Direito Civil
+    </h3>
+    <p className="text-center text-sm text-[#c69535] text-justify">
+      Atuação em questões do dia a dia, como elaboração e revisão de contratos, ações de cobrança, responsabilidade civil, indenizações e demais demandas cíveis que envolvem os direitos e deveres nas relações particulares.
+    </p>
+  </div>
 
-          <div className="bg-white p-6 rounded-xl shadow-md xl:w-[250px] 2xl:w-[350px] h-auto flex flex-col items-center px-10">
-            <img src="/lei-trabalhista.png" alt="" className="h-7" />
-            <h3 className="font-bold text-center mb-2 text-[#411417]">
-              Direito do Trabalho
-            </h3>
-            <p className="text-center text-sm text-[#c69535] text-justify xl:px-5 2xl:px-16">
-              Representação em ações trabalhistas envolvendo verbas rescisórias, reconhecimento de vínculo, horas extras, indenizações por danos morais e materiais, entre outros direitos do trabalhador, sempre com foco na justiça e valorização do trabalho digno.
-            </p>
-          </div>
-        </div>
+  <div className="bg-white p-6 rounded-xl shadow-md flex-1 min-w-[280px] max-w-[350px] h-auto flex flex-col items-center px-10">
+    <img src="/lei-trabalhista.png" alt="" className="h-7" />
+    <h3 className="font-bold text-center mb-2 text-[#411417]">
+      Direito do Trabalho
+    </h3>
+    <p className="text-center text-sm text-[#c69535] text-justify">
+      Representação em ações trabalhistas envolvendo verbas rescisórias, reconhecimento de vínculo, horas extras, indenizações por danos morais e materiais, entre outros direitos do trabalhador, sempre com foco na justiça e valorização do trabalho digno.
+    </p>
+  </div>
+</div>
       </section>
 
-      <section className="bg-[#f2f2f0] w-full min-h-100 flex flex-col items-start md:items-center justify-center px-4">
+    <section className="bg-[#f2f2f0] w-full min-h-100 flex flex-col items-center justify-center px-4 py-8">
   {/* Título no topo só no desktop */}
-  <h1 className="text-[#411417] hidden md:block">Outras formas de contato</h1>
+  <h1 className="text-[#411417] hidden md:block mb-6 text-center">Outras formas de contato</h1>
 
-  <div className="flex flex-col md:flex-row-reverse gap-10 w-full md:items-center">
+  {/* Wrapper centralizado */}
+  <div className="w-full max-w-5xl flex flex-col md:flex-row-reverse gap-10 md:items-center justify-center mx-auto">
     {/* Logo */}
     <img
       src="/LogoL.png"
@@ -134,29 +130,29 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
     />
 
     {/* Título no mobile */}
-    <h2 className="text-[#411417] text-sm font-semibold md:hidden order-2">
+    <h2 className="text-[#411417] text-sm font-semibold md:hidden order-2 text-center">
       Outras formas de contato
     </h2>
 
     {/* Informações de contato */}
-    <div className="xl:w-sm 2xl:w-md flex flex-col justify-center order-3 md:order-2 text-left">
+    <div className="flex flex-col justify-center order-3 md:order-2 text-left gap-3">
       <div className="flex items-center gap-2">
         <img src="/instagram.png" alt="Instagram" className="w-5 h-5" />
-        <h1 className="text-[#411417] md:text-2xl text-[12px]">@Ana_Claudia_Martins</h1>
+        <h1 className="text-[#411417] md:text-2xl text-sm">@anaclaudiamartins.adv</h1>
       </div>
       <div className="flex items-center gap-2">
         <img src="/o-email.png" alt="Email" className="w-5 h-5" />
-        <h1 className="text-[#411417] md:text-2xl text-[12px]">anaclaudiamartins@gmail.com</h1>
+        <h1 className="text-[#411417] md:text-2xl text-sm">anaclaudiamartins.mrt.adv@gmail.com</h1>
       </div>
       <div className="flex items-center gap-2">
         <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
-        <h1 className="text-[#411417] md:text-2xl text-[12px]">(67) 9 9999-9999</h1>
+        <h1 className="text-[#411417] md:text-2xl text-sm">(67)99194-4153 </h1>
       </div>
     </div>
   </div>
 </section>
  <footer className="md:w-full h-full bg-[#c5972c] text-white text-center">
-        <p className="text-[10px]">
+        <p className="text-[12px]">
           &copy; 2025. Todos os Direitos Reservados. Ana Claudia Martins
           Advogada. Desenvolvido por Vinicius Martins
         </p>

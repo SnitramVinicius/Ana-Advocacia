@@ -132,7 +132,7 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
     <div className="w-full md:w-[55%] flex flex-col justify-between text-justify px-2 md:px-5 pt-5 gap-5 ">
       <div>
         <h1 className="text-xl md:text-2xl text-[#480f10] font-bold">
-          A Dra. Ana Claudia Martins atende presencialmente em Campo Grande-MS, mas também oferece suporte jurídico completo em todo o Brasil por meio de atendimentos online.
+          A Dra. Ana Claudia Martins realiza atendimentos presenciais em Campo Grande/MS e, para maior comodidade, também oferece suporte jurídico completo a clientes de todo o Brasil por meio de atendimentos online
         </h1>
          <div className="h-px w-12/12 bg-[#c5972c] my-4" />
         <h1 className="text-xl md:text-2xl text-[#480f10]">

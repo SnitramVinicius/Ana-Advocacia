@@ -29,16 +29,16 @@ useEffect(() => {
 
       {/* Menu de navegação no desktop */}
       <div className="hidden md:flex justify-center space-x-20 py-4">
-        <a href="#" className="hover:text-[#c5972c] text-sm">
+        <a href="#sobre" className="hover:text-[#c5972c] text-sm">
           Sobre
         </a>
-        <a href="#" className="hover:text-[#c5972c] text-sm">
+        <a href="#areas" className="hover:text-[#c5972c] text-sm">
           Áreas de atuação
         </a>
-        <a href="#" className="hover:text-[#c5972c] text-sm">
+        <a href="#atendimento" className="hover:text-[#c5972c] text-sm">
           Atendimento
         </a>
-        <a href="#" className="hover:text-[#c5972c] text-sm">
+        <a href="#contato" className="hover:text-[#c5972c] text-sm">
           Contato
         </a>
       </div>

@@ -116,6 +116,33 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
 </div>
       </section>
 
+       <section className="bg-white w-full min-h-[100dvh] flex flex-col items-center justify-center px-4 py-10">
+  <h2 className="text-[#480f10] text-sm mb-6 font-semibold">
+    NOSSO ATENDIMENTO
+  </h2>
+
+  <div className=" w-full max-w-[1200px] rounded-2xl flex flex-col md:flex-row justify-center items-center p-5 gap-5 transition-all duration-300">
+    <div className="w-full md:w-[45%] h-[300px] md:h-auto md:aspect-auto md:min-h-[300px] rounded-xl flex justify-center items-center overflow-hidden">
+      <img
+        src="/mapa3D.png"
+        alt="mapa"
+        className="w-full h-full object-contain md:object-cover"
+      />
+    </div>
+    <div className="w-full md:w-[55%] flex flex-col justify-between text-justify px-2 md:px-5 pt-5 gap-5 ">
+      <div>
+        <h1 className="text-xl md:text-2xl text-[#480f10] font-bold">
+          A Dra. Ana Claudia Martins atende presencialmente em Campo Grande-MS, mas também oferece suporte jurídico completo em todo o Brasil por meio de atendimentos online.
+        </h1>
+         <div className="h-px w-12/12 bg-[#c5972c] my-4" />
+        <h1 className="text-xl md:text-2xl text-[#480f10]">
+Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometimento.
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
     <section className="bg-[#f2f2f0] w-full min-h-100 flex flex-col items-center justify-center px-4 py-8">
   {/* Título no topo só no desktop */}
   <h1 className="text-[#411417] hidden md:block mb-6 text-center">Outras formas de contato</h1>

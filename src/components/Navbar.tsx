@@ -36,6 +36,9 @@ useEffect(() => {
           Áreas de atuação
         </a>
         <a href="#" className="hover:text-[#c5972c] text-sm">
+          Atendimento
+        </a>
+        <a href="#" className="hover:text-[#c5972c] text-sm">
           Contato
         </a>
       </div>

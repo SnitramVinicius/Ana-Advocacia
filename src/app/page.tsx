@@ -1,5 +1,4 @@
 import Navbar from "@/components/Navbar";
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Image from 'next/image'
 
 
@@ -44,9 +43,15 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
         </p>
       </div>
 
-      <button className="bg-white hover:bg-[#c5972c] hover:text-white text-[#592526] font-bold py-2 px-6 w-full rounded-xl text-sm md:text-base">
-        Solicite um Atendimento Jurídico
-      </button>
+ <a
+  href="https://api.whatsapp.com/send/?phone=5567991944153&text&type=phone_number&app_absent=0"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="bg-white hover:bg-[#c5972c] hover:text-white text-[#592526] font-bold py-2 px-6 w-full rounded-xl text-sm md:text-base">
+    Solicite um Atendimento Jurídico
+  </button>
+</a>
     </div>
   </div>
 </section>
@@ -69,8 +74,8 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
     </div>
   </div>
 
-        <h1 className="text-white text-2xl font-bold mb-6 object-cover z-10">
-  Áreas de atuação
+        <h1 className="text-white text-sm mb-6 font-semibold">
+  ÁREAS DE ATUAÇÃO
 </h1>
 
 <div className="flex flex-wrap justify-center gap-4 object-cover z-10">
@@ -158,23 +163,41 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
     </h2>
 
     <div className="flex flex-col justify-center order-3 md:order-2 text-left gap-3">
-      <div className="flex items-center gap-2">
-        <img src="/instagram.png" alt="Instagram" className="w-5 h-5" />
-        <h1 className="text-[#411417] md:text-2xl text-sm">@anaclaudiamartins.adv</h1>
-      </div>
-      <div className="flex items-center gap-2">
-        <img src="/o-email.png" alt="Email" className="w-5 h-5" />
-        <h1 className="text-[#411417] md:text-2xl text-sm">anaclaudiamartins.mrt.adv@gmail.com</h1>
-      </div>
+     <a
+  href="https://www.instagram.com/anaclaudiamartins.adv"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div className="flex items-center gap-2 cursor-pointer">
+    <img src="/instagram.png" alt="Instagram" className="w-5 h-5" />
+    <h1 className="text-[#411417] md:text-2xl text-sm">@anaclaudiamartins.adv</h1>
+  </div>
+</a>
+<a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=anaclaudiamartins.mrt.adv@gmail.com&su=Solicitação%20de%20Atendimento%20Jurídico"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div className="flex items-center gap-2 cursor-pointer">
+    <img src="/e-mail.png" alt="Email" className="w-5 h-5" />
+    <h1 className="text-[#411417] md:text-2xl text-sm">anaclaudiamartins.mrt.adv@gmail.com</h1>
+  </div>
+</a>
+ <a
+  href="https://api.whatsapp.com/send/?phone=5567991944153&text&type=phone_number&app_absent=0"
+  target="_blank"
+  rel="noopener noreferrer"
+>
       <div className="flex items-center gap-2">
         <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
         <h1 className="text-[#411417] md:text-2xl text-sm">(67)99194-4153 </h1>
       </div>
+      </a>
     </div>
   </div>
 </section>
  <footer className="md:w-full h-full bg-[#c5972c] text-white text-center">
-        <p className="text-[12px]">
+        <p className="text-[7px] sm:text-[10px] ">
           &copy; 2025. Todos os Direitos Reservados. Ana Claudia Martins
           Advogada. Desenvolvido por Vinicius Martins
         </p>

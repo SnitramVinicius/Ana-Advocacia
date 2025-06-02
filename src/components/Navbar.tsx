@@ -88,10 +88,8 @@ useEffect(() => {
               <Instagram size={16} />
               <span>@anaclaudiamartins.adv</span>
             </a>
- <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=anaclaudiamartins@gmail.com&su=Solicitação%20de%20Atendimento%20Jurídico"
-  target="_blank"
-  rel="noopener noreferrer"
+<a
+  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%20Por%20favor,%20me%20retorne%20com%20os%20detalhes."
   className="flex items-center gap-2 hover:underline"
 >
   <Mail size={16} />

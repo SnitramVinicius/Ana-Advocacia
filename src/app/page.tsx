@@ -174,7 +174,7 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
   </div>
 </a>
 <a
-  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&amp;body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%20Por%20favor,%20me%20retorne%20com%20os%20detalhes."
+  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&amp;body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%20me%20retorne%20com%20os%20detalhes."
 >
   <div className="flex items-center gap-2 cursor-pointer">
     <img src="/e-mail.png" alt="Email" className="w-5 h-5" />

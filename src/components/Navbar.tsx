@@ -89,7 +89,7 @@ useEffect(() => {
               <span>@anaclaudiamartins.adv</span>
             </a>
 <a
-  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%20Por%20favor,%20me%20retorne%20com%20os%20detalhes."
+  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%20me%20retorne%20com%20os%20detalhes."
   className="flex items-center gap-2 hover:underline"
 >
   <Mail size={16} />

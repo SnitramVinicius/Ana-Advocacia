@@ -17,7 +17,7 @@ export default function Home() {
   </h2>
 
   <div className="bg-[#480f10] w-full max-w-[1200px] rounded-2xl flex flex-col md:flex-row justify-center items-center p-5 gap-5 transition-all duration-300">
-    {/* IMAGEM */}
+
     <div className="bg-white w-full md:w-[45%] aspect-[4/5] md:aspect-auto rounded-xl flex justify-center items-center overflow-hidden min-h-[300px]">
       <img
         src="/PPerfil.jpg"
@@ -26,7 +26,7 @@ export default function Home() {
       />
     </div>
 
-    {/* TEXTO */}
+
     <div className="w-full md:w-[55%] flex flex-col justify-between text-justify px-2 md:px-5 pt-5 gap-5 text-white">
       <div>
         <h1 className="text-xl md:text-2xl text-[#c5972c] font-bold">
@@ -57,15 +57,15 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
 </section>
 
       <section id="areas" className=" w-full min-h-screen flex flex-col items-center justify-center px-4 py-8 bg-[#411417]">
- <div className="flex flex-wrap justify-center gap-5 mb-6 z-10 w-full max-w-7xl">
-    <div className="flex-1 min-w-[280px] max-w-[500px] bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
+ <div className="flex flex-wrap justify-center gap-5 mb-6 z-10 w-full max-w-[1440px]">
+    <div className="flex-1 min-w-[280px] bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
       <img src="/missao.png" alt="Missão" className="h-7" />
       <h3 className="font-bold text-center mb-2 text-[#411417]">Missão</h3>
       <p className="text-center text-sm text-[#c69535]">
         Oferecer assessoria jurídica de excelência para meus clientes.
       </p>
     </div>
-    <div className="flex-1 min-w-[280px] max-w-[500px] bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
+    <div className="flex-1 min-w-[280px] bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
       <img src="/valor.png" alt="Valores" className="h-7" />
       <h3 className="font-bold text-center mb-2 text-[#411417]">Valores</h3>
       <p className="text-center text-sm text-[#c69535]">
@@ -79,7 +79,7 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
 </h1>
 
 <div className="flex flex-wrap justify-center gap-4 object-cover z-10">
-  <div className="bg-white p-6 rounded-xl shadow-md flex-1 min-w-[280px] max-w-[350px] h-auto flex flex-col items-center px-10">
+  <div className="bg-white p-6 rounded-xl shadow-md w-full sm:flex-1 sm:min-w-[280px] sm:max-w-[350px] h-auto flex flex-col items-center px-10">
     <img src="/direito-penal.png" alt="" className="h-7" />
     <h3 className="font-bold text-center mb-2 text-[#411417]">
       Direito Criminal
@@ -89,7 +89,7 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
     </p>
   </div>
 
-  <div className="bg-white p-6 rounded-xl shadow-md flex-1 min-w-[280px] max-w-[350px] h-auto flex flex-col items-center px-10">
+  <div className="bg-white p-6 rounded-xl shadow-md w-full sm:flex-1 sm:min-w-[280px] sm:max-w-[350px] h-auto flex flex-col items-center px-10">
     <img src="/plano-de-aposentadoria.png" alt="" className="h-7" />
     <h3 className="font-bold text-center mb-2 text-[#411417]">
       Direito Previdenciário
@@ -99,7 +99,7 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
     </p>
   </div>
 
-  <div className="bg-white p-6 rounded-xl shadow-md flex-1 min-w-[280px] max-w-[350px] h-auto flex flex-col items-center px-10">
+  <div className="bg-white p-6 rounded-xl shadow-md w-full sm:flex-1 sm:min-w-[280px] sm:max-w-[350px] h-auto flex flex-col items-center px-10">
     <img src="/justica.png" alt="" className="h-7" />
     <h3 className="font-bold text-center mb-2 text-[#411417]">
       Direito Civil
@@ -109,7 +109,7 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
     </p>
   </div>
 
-  <div className="bg-white p-6 rounded-xl shadow-md flex-1 min-w-[280px] max-w-[350px] h-auto flex flex-col items-center px-10">
+  <div className="bg-white p-6 rounded-xl shadow-md w-full sm:flex-1 sm:min-w-[280px] sm:max-w-[350px] h-auto flex flex-col items-center px-10">
     <img src="/lei-trabalhista.png" alt="" className="h-7" />
     <h3 className="font-bold text-center mb-2 text-[#411417]">
       Direito do Trabalho
@@ -149,7 +149,7 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
 </section>
 
     <section id="contato" className="bg-[#f2f2f0] w-full min-h-100 flex flex-col items-center justify-center px-4 py-8">
-  <h1 className="text-[#411417] hidden md:block mb-6 text-center">Outras formas de contato</h1>
+  <h1 className="text-[#411417] hidden md:block mb-6 text-center font-semibold">Outras formas de contato</h1>
   <div className="w-full max-w-5xl flex flex-col md:flex-row-reverse gap-10 md:items-center justify-center mx-auto">
     <img
       src="/LogoL.png"

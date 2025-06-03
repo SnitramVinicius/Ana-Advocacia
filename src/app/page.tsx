@@ -32,7 +32,7 @@ export default function Home() {
         <h1 className="text-xl md:text-2xl text-[#c5972c] font-bold">
           Ana Claudia Martins
         </h1>
-        <p className="text-sm md:text-base text-white">OAB/MS nº 123.123</p>
+        <p className="text-sm md:text-base text-white">OAB/MS nº 30.838</p>
         <div className="h-px w-9/12 bg-[#c5972c] my-4" />
         <p className="text-sm md:text-base leading-relaxed">
           Sou Ana Cláudia Martins da Silva, advogada inscrita na OAB/MS sob o nº 30.838, formada em Direito pela Faculdade Anhanguera e pós-graduada em Direito Penal e Processo Penal.
@@ -174,7 +174,7 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
   </div>
 </a>
 <a
-  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&amp;body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%20me%20retorne%20com%20os%20detalhes."
+  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%0ASeguem%20meus%20dados%20para%20contato:%0A%0ANome:%0ATelefone/WhatsApp:%0AAssunto:"
 >
   <div className="flex items-center gap-2 cursor-pointer">
     <img src="/e-mail.png" alt="Email" className="w-5 h-5" />
@@ -183,16 +183,16 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
     </h1>
   </div>
 </a>
- <a
-  href="https://api.whatsapp.com/send/?phone=5567991944153&text&type=phone_number&app_absent=0"
+<a
+  href="https://api.whatsapp.com/send?phone=5567991944153&text=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%0ASeguem%20meus%20dados%20para%20contato:%0A%0ANome:%0ATelefone/WhatsApp:%0AAssunto:"
   target="_blank"
   rel="noopener noreferrer"
 >
-      <div className="flex items-center gap-2">
-        <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
-        <h1 className="text-[#411417] md:text-2xl text-sm">(67)99194-4153 </h1>
-      </div>
-      </a>
+  <div className="flex items-center gap-2">
+    <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
+    <h1 className="text-[#411417] md:text-2xl text-sm">(67)99194-4153</h1>
+  </div>
+</a>
     </div>
   </div>
 </section>

@@ -89,14 +89,14 @@ useEffect(() => {
               <span>@anaclaudiamartins.adv</span>
             </a>
 <a
-  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%20me%20retorne%20com%20os%20detalhes."
+  href="mailto:anaclaudiamartins.mrt.adv@gmail.com?subject=Solicitação%20de%20Atendimento%20Jurídico&body=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%0ASeguem%20meus%20dados%20para%20contato:%0A%0ANome:%0ATelefone/WhatsApp:%0AAssunto:"
   className="flex items-center gap-2 hover:underline"
 >
   <Mail size={16} />
   <span>anaclaudiamartins.mrt.adv@gmail.com</span>
 </a>
               <a
-    href="https://wa.me/5567999999999"
+    href="https://api.whatsapp.com/send?phone=5567991944153&text=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%0ASeguem%20meus%20dados%20para%20contato:%0A%0ANome:%0ATelefone/WhatsApp:%0AAssunto:"
     target="_blank"
     rel="noopener noreferrer"
     className="flex items-center gap-2 hover:underline"

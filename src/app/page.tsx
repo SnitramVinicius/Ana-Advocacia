@@ -44,7 +44,7 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
       </div>
 
  <a
-  href="https://api.whatsapp.com/send/?phone=5567991944153&text&type=phone_number&app_absent=0"
+  href="https://api.whatsapp.com/send?phone=5567991944153&text=Olá,%20gostaria%20de%20agendar%20um%20atendimento%20jurídico.%0ASeguem%20meus%20dados%20para%20contato:%0A%0ANome:%0ATelefone/WhatsApp:%0AAssunto:"
   target="_blank"
   rel="noopener noreferrer"
 >

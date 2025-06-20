@@ -8,7 +8,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-<main className="min-h-screen bg-[#480f10] relative">
+<main id="top" className="min-h-screen bg-[#480f10] relative">
   <Navbar />
  <div className="flex justify-center items-center w-full h-screen">
   <img src="/Background.png" alt="" className="sm:w-md md:w-lg lg:w-xl xl:w-2xl 2xl:w-4xl"/>

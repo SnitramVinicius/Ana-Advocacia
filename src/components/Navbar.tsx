@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X, Mail, Instagram, Phone } from "lucide-react";
+import { smoothScrollTo } from "@/utils/smoothScroll";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X, Mail, Instagram, Phone } from "lucide-react";
-import { smoothScrollTo } from "@/utils/smoothScroll";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,10 +18,12 @@ useEffect(() => {
   };
 }, [menuOpen]);
   const scrollToSection = (id: string) => {
-    // const section = document.getElementById(id);
-     smoothScrollTo(id);
-  setMenuOpen(false);
-};
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setMenuOpen(false);
+    }
+  };
 
   return (
     <header className="bg-[#592526] text-white shadow-md max-w-2xl mx-auto rounded-b-2xl font-open z-10 relative">

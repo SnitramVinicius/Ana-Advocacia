@@ -20,11 +20,9 @@ useEffect(() => {
 }, [menuOpen]);
   const scrollToSection = (id: string) => {
     const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-      setMenuOpen(false);
-    }
-  };
+     smoothScrollTo(id);
+  setMenuOpen(false);
+};
 
   return (
     <header className="bg-[#592526] text-white shadow-md max-w-2xl mx-auto rounded-b-2xl font-open z-10 relative">

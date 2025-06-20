@@ -30,7 +30,7 @@ export default function ScrollToTopButton() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 p-3 transition z-100"
+          className="fixed bottom-6 right-6 p-3 transition z-100 cursor-pointer"
           aria-label="Voltar ao topo"
         >
     <img src="/up.png" alt="Voltar ao topo" className="w-10 h-10"/>

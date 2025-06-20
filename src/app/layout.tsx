@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Open_Sans } from "next/font/google";
 import "./globals.css";
 import ScrollToTopButton from "../components/ScrollToTopButton";
+<meta name="apple-mobile-web-app-title" content="Ana Martins" />
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

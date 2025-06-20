@@ -1,7 +1,10 @@
 import Navbar from "@/components/Navbar";
 // import Image from 'next/image'
 
-
+export const metadata = {
+  title: "Ana Claudia Martins - Advocacia",
+  description: "",
+};
 export default function Home() {
   return (
     <>
@@ -48,7 +51,7 @@ Com atuação sólida e multidisciplinar, presto assessoria e representação em
   target="_blank"
   rel="noopener noreferrer"
 >
-  <button className="bg-white hover:bg-[#c5972c] hover:text-white text-[#592526] font-bold py-2 px-6 w-full rounded-xl text-sm md:text-base">
+  <button className="bg-white hover:bg-[#c5972c] hover:text-white text-[#592526] font-bold py-2 px-6 w-full rounded-xl text-sm md:text-base cursor-pointer">
     Solicite um Atendimento Jurídico
   </button>
 </a>
@@ -154,7 +157,7 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
     <img
       src="/LogoL.png"
       alt="Logo"
-      className="md:w-80 w-56 h-auto order-1 md:order-1 self-center md:self-auto"
+      className="md:w-70 w-70 h-auto order-1 md:order-1 self-center md:self-auto"
     />
 
 
@@ -170,7 +173,7 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
 >
   <div className="flex items-center gap-2 cursor-pointer">
     <img src="/instagram.png" alt="Instagram" className="w-5 h-5" />
-    <h1 className="text-[#411417] md:text-2xl text-sm">@anaclaudiamartins.adv</h1>
+    <h1 className="text-[#411417] md:text-md text-sm">@anaclaudiamartins.adv</h1>
   </div>
 </a>
 <a
@@ -178,7 +181,7 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
 >
   <div className="flex items-center gap-2 cursor-pointer">
     <img src="/e-mail.png" alt="Email" className="w-5 h-5" />
-    <h1 className="text-[#411417] md:text-2xl text-sm">
+    <h1 className="text-[#411417] md:text-md text-sm">
       anaclaudiamartins.mrt.adv@gmail.com
     </h1>
   </div>
@@ -190,7 +193,7 @@ Consultas por videochamada, WhatsApp ou e-mail, com rapidez, ética e comprometi
 >
   <div className="flex items-center gap-2">
     <img src="/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
-    <h1 className="text-[#411417] md:text-2xl text-sm">(67)99194-4153</h1>
+    <h1 className="text-[#411417] md:text-md text-sm">(67)99194-4153</h1>
   </div>
 </a>
     </div>

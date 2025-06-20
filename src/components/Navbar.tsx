@@ -19,7 +19,7 @@ useEffect(() => {
   };
 }, [menuOpen]);
   const scrollToSection = (id: string) => {
-    const section = document.getElementById(id);
+    // const section = document.getElementById(id);
      smoothScrollTo(id);
   setMenuOpen(false);
 };
